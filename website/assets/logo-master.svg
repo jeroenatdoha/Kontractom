@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360">
+  <!--
+    Kontractom Consultancy W.L.L — master logo
+    Two-tone blue stylised N/L monogram + wordmark
+    Reconstructed from letterhead reference. Adjust hex values once confirmed.
+  -->
+  <defs>
+    <style>
+      .mark-dark  { fill: #2F4B8C; }
+      .mark-light { fill: #5E7DC1; }
+      .wordmark   { fill: #3A5DA0; font-family: 'Georgia', 'Times New Roman', serif; font-weight: 400; letter-spacing: 1.5px; }
+    </style>
+  </defs>
+
+  <!-- Monogram: stylised N with embedded L, two-tone blue.
+       Geometry: two diagonal parallelograms forming an N,
+       with a hidden L created by the left vertical and the bottom edge. -->
+  <g transform="translate(270,30)">
+    <!-- Left vertical stroke (forms left of N and vertical of L) -->
+    <polygon class="mark-dark"
+             points="0,0  42,0  42,220  0,220" />
+
+    <!-- Diagonal stroke (the N's slash) - lighter tone -->
+    <polygon class="mark-light"
+             points="42,0  84,0  180,220  138,220" />
+
+    <!-- Right vertical stroke (forms right of N) -->
+    <polygon class="mark-dark"
+             points="138,0  180,0  180,220  138,220" />
+
+    <!-- Horizontal foot (forms bottom of L, slight overlap with N base) -->
+    <polygon class="mark-light"
+             points="0,180  180,180  180,220  0,220" />
+  </g>
+
+  <!-- Wordmark -->
+  <text x="360" y="320" text-anchor="middle" class="wordmark" font-size="28">
+    KONTRACTOM CONSULTANCY W.L.L
+  </text>
+</svg>

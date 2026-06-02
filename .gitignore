@@ -1,0 +1,12 @@
+.claude/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+
+QDB-SME-Digital-Transformation-Research*
+build_docx.js
+Case studies/
+brand/
+deck/
+photos/

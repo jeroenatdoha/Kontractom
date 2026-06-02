@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360">
+  <!--
+    Kontractom Consultancy W.L.L — INVERSE logo for dark backgrounds.
+    White primary + light-cyan accent retains the two-tone signature
+    without losing contrast.
+  -->
+  <defs>
+    <style>
+      .mark-primary { fill: #ffffff; }
+      .mark-accent  { fill: #8FCFEA; }   /* light cyan tint of the secondary blue */
+      .wordmark     { fill: #ffffff; font-family: 'Georgia', 'Times New Roman', serif; font-weight: 400; letter-spacing: 1.5px; }
+    </style>
+  </defs>
+
+  <g transform="translate(270,30)">
+    <polygon class="mark-primary"
+             points="0,0  42,0  42,220  0,220" />
+    <polygon class="mark-accent"
+             points="42,0  84,0  180,220  138,220" />
+    <polygon class="mark-primary"
+             points="138,0  180,0  180,220  138,220" />
+    <polygon class="mark-accent"
+             points="0,180  180,180  180,220  0,220" />
+  </g>
+
+  <text x="360" y="320" text-anchor="middle" class="wordmark" font-size="28">
+    KONTRACTOM CONSULTANCY W.L.L
+  </text>
+</svg>
