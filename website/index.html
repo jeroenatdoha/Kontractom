@@ -379,20 +379,47 @@
 
   .shapes-banner {
     margin-top: 56px;
-    background: white;
-    border-left: 4px solid var(--amber);
-    padding: 20px 26px;
-    font-size: 14px;
-    color: var(--ink-soft);
-    line-height: 1.7;
   }
-  .shapes-banner strong {
+  .shapes-banner .shapes-eyebrow {
     color: var(--blue-dark);
-    display: block;
     font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-bottom: 4px;
+    margin-bottom: 18px;
+  }
+  .shapes-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  @media (max-width: 980px) { .shapes-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 560px) { .shapes-grid { grid-template-columns: 1fr; } }
+  .shape-card {
+    background: white;
+    border-left: 4px solid var(--amber);
+    padding: 18px 22px;
+  }
+  .shape-card h4 {
+    margin: 0 0 6px;
+    color: var(--blue-dark);
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 1.25;
+  }
+  .shape-card .shape-meta {
+    color: var(--amber);
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  .shape-card p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.55;
   }
 
   /* ---------- Team ---------- */
@@ -851,11 +878,29 @@
       </div>
     </div>
     <div class="shapes-banner">
-      <strong>Engagement shapes:</strong>
-      Full programme (all four phases, sixteen to twenty weeks plus sustaining) &middot;
-      Diagnostic &amp; roadmap only (Phases 1–2, four to six weeks) &middot;
-      Implementation support (plug into a programme already in flight) &middot;
-      Sustaining retainer (post-go-live).
+      <div class="shapes-eyebrow">Engagement shapes</div>
+      <div class="shapes-grid">
+        <div class="shape-card">
+          <h4>Full programme</h4>
+          <div class="shape-meta">16&ndash;20 weeks + sustaining</div>
+          <p>All four phases, end-to-end. Assess through to sustain.</p>
+        </div>
+        <div class="shape-card">
+          <h4>Diagnostic &amp; roadmap only</h4>
+          <div class="shape-meta">Phases 1&ndash;2 &middot; 4&ndash;6 weeks</div>
+          <p>Maturity assessment and board-ready plan pack. Gets the SME grant-ready.</p>
+        </div>
+        <div class="shape-card">
+          <h4>Implementation support</h4>
+          <div class="shape-meta">Variable scope</div>
+          <p>Plug into a programme already in flight. On-site execution and vendor orchestration.</p>
+        </div>
+        <div class="shape-card">
+          <h4>Sustaining retainer</h4>
+          <div class="shape-meta">Post-go-live</div>
+          <p>Quarterly KPI verification, executive coaching, readiness for the next funding tier.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -892,7 +937,7 @@
         <div class="name">Jeroen Hendriks</div>
         <div class="role">Partner</div>
         <p>
-          Twenty-eight years of senior digital transformation delivery across enterprise programme leadership and venture building. Ex PwC, Accenture and PA Consulting; ex Shell and Qatar Energy. Most recently Director of Digital Transformation at PwC Middle East, leading programme mobilisation and change for Qatar Energy's five-year, twenty-six-workstream ICT strategy transformation covering 30,000+ employees.
+          Twenty-eight years of senior digital transformation delivery across enterprise programme leadership and venture building. Ex PwC, Accenture and PA Consulting; ex Shell and Qatar Energy. Most recently ICT Strategy Transformation Lead at Qatar Energy via PwC Middle East &mdash; mobilising a five-year, twenty-six-workstream programme covering 30,000+ employees across SAP-ERP, ServiceNow, cloud and AI adoption.
         </p>
         <p>
           Earlier career spans senior delivery roles at Avanade (Accenture's Microsoft technology arm) — including portfolio leadership across Shell Upstream &amp; Projects &amp; Technology (€15M annual, 100+ FTE) — a $25M global cybersecurity programme covering 800+ applications, and the founding of CartUp AI, a Silicon Valley B2B SaaS venture serving fifteen international clients before exit. Cross-sector across energy, financial services, government, technology, supply chain &amp; logistics and manufacturing, and currently delivering agentic AI applications into GCC enterprises.
